@@ -10,7 +10,7 @@ csvpath = os.path.join("Resources", "budget_data.csv")
 text_path = "Final_Analysis.txt"
 
 #set the output of the text filetext_path = "Final_Analysis.txt"
-outfile = os.path.join("..", "analysis", text_path)
+outfile = os.path.join(",,", "analysis", text_path)
 
 #Set variables
 totalmonths = []
