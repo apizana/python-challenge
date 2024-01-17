@@ -8,7 +8,7 @@ election_data = os.path.join("Resources", "election_data.csv")
 text_path="election_analysis.txt"
 
 # Specify the file to write to
-out_file = os.path.join("analysis", text_path)
+outfile = os.path.join("analysis", text_path)
 
 # Total vote counter
 total_votes = 0
@@ -51,7 +51,7 @@ with open(election_data) as election_data:
         candidate_votes[candidate_name] += 1
 
 # Save the results to text file.
-with open(text_path, "w") as text_file:
+with open(outfile, "w") as text_file:
     
     # Print the total votes count to the terminal.
     election_results = (
